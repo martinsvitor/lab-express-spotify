@@ -1,0 +1,10 @@
+<div>
+  <h1>Arists</h1>
+  <div>
+    {{#each items}} 
+
+    <h5>{{this.name}}</h5>
+        {{> singleArtist this}} 
+      {{/each}}
+  </div>
+</div>
